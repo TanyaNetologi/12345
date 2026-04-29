@@ -3,7 +3,7 @@ def read_file(file_name):
     try:
         file = open(file_name, "r", encoding="utf-8")
         lines = file.readlines()
-        file.close()
+        file.close()1
 
         clean_lines = []
         for line in lines:
